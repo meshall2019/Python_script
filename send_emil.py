@@ -1,6 +1,6 @@
 import smtplib
 """
-must imprtent note:
+most imprtent note:
 you must to enable the access to less secure apps before you write your sender email
 ------------------------------------------------------------------------------------
 ***************************************************
@@ -26,7 +26,7 @@ while True:
 message =input ("Enter your Message : ")
 num_Emils=int(input("How many numbers of emils do you want to send ..? "))#asking for the numbers of emils
 try:
-    for emil in receivers_Emils:#for each emil the the receivers_Emils array
+    for emil in receivers_Emils:#for each emil in the receivers_Emils array
         for n in range(num_Emils):# for Repeting sending the emil
 
          server = smtplib.SMTP_SSL('smtp.gmail.com', 465)# port of gmail for making the conection
