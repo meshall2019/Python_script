@@ -5,7 +5,7 @@ you must to enable the access to less secure apps before you write your sender e
 ------------------------------------------------------------------------------------
 ***************************************************
 note:
-Script It has been MODIFIED by Meshal AL-Rhsdan
+Script has been MODIFIED by Meshal AL-Rhsdan
 MY job:
 - You can add more then Receiver
 -You can sending the emil as many times as you want
