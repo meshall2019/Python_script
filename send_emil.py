@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter import messagebox
 """
 must imprtent note:
-you must to enable the access to less secure apps before you write your sender email
+you must to enable the access to less secure apps before you write your  email
 ------------------------------------------------------------------------------------
 ***************************************************
 note:
@@ -18,6 +18,11 @@ MY job:
 window = Tk()
 window.title("Sending Emil")
 receivers_Emils = []  # array for the Receivers's Emils
+
+note=Label(window,text="you must to enable the access to less secure apps before you write your  email",fg="red")
+note.pack()
+note=Label(window,text="https://support.google.com/accounts/answer/6010255?hl=ar",fg="red")
+note.pack()
 
 enter_emil=Label(window,text="Enter your Emil: ")
 enter_emil.pack()
